@@ -1,6 +1,15 @@
-.uk-heading-divider{
+.uk-heading-divider {
   padding-left: 1em;
   background-color: #94bfac;
   color: #333333;
+}
 
+img.previewIcon {
+  width: 40px;
+  height: 40px;
+}
+
+a.uk-icon-button {
+  background: #a59d9b9e;
+  color: #333333;
 }
