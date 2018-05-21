@@ -1,0 +1,23 @@
+body {
+  background-color: #caccc5;
+}
+
+h1 {
+  colour: #2b2929;
+  font-family: sans-serif;
+}
+
+#textInput, #textOutput {
+  width: 45%;
+  height: 150px;
+}
+
+#textOutput {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#erklaerBaer {
+  color: #a8160b;
+  font-family: sans-serif;
+}
