@@ -1,15 +1,11 @@
-body {
-  background-color: #caccc5;
-}
-
-h1 {
-  colour: #2b2929;
-  font-family: sans-serif;
+.container, body {
+  background-color: black;
 }
 
 #textInput, #textOutput {
-  width: 45%;
+  width: 60%;
   height: 150px;
+  resize: none;
 }
 
 #textOutput {
@@ -18,6 +14,7 @@ h1 {
 }
 
 #erklaerBaer {
-  color: #a8160b;
-  font-family: sans-serif;
+  color: #f55a0c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
 }

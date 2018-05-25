@@ -2,16 +2,16 @@ $(document).ready(
   function() {
     $("#textInput").keyup(
       function(keyEvent) {
-        if(keyEvent.which==13) {
-          let textInput=$("#textInput").val().toUpperCase();
-          let textBuffer="";
+        if (keyEvent.which == 13) {
+          let textInput = $("#textInput").val().toUpperCase();
+          let textBuffer = "";
           for (let i = 0; i < textInput.length; i++) {
-            let tmp=code[textInput[i]];
-            if (tmp!=undefined) {
-              textBuffer+=tmp+"   ";
+            let tmp = code[textInput[i]];
+            if (tmp != undefined) {
+              textBuffer += tmp + "   ";
             } else {
-              if(textInput[i]!="\n") {
-                alert("ungueltige eingabe");
+              if (textInput[i] != "\n") {
+                alert("INVALID INPUT");
                 $("#textInput").val("");
               }
             }
@@ -19,9 +19,8 @@ $(document).ready(
           $("#textOutput").val(textBuffer);
         }
       }
-    ).click(function()
-  {
-    $("#textOutput").val("");
-  });
+    ).click(function() {
+      $("#textOutput").val("");
+    });
   }
 );

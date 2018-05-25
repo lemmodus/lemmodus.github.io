@@ -26,7 +26,7 @@ function pickLocation() {
 }
 
 function draw() {
-  background(51);
+  background('#333333');
 
   if (snake.eat(food)) {
     pickLocation();
@@ -36,7 +36,7 @@ function draw() {
   snake.update();
   snake.show();
 
-  fill(244, 209, 66);
+  fill('#fae569');
   rect(food.x, food.y, gridscale, gridscale);
 }
 

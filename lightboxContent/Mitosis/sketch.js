@@ -8,6 +8,8 @@ function setup() {
   cells.push(new Cell());
   cells.push(new Cell());
   cells.push(new Cell());
+  cells.push(new Cell());
+  cells.push(new Cell());
 
 }
 

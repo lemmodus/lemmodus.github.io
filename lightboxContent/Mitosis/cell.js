@@ -10,7 +10,7 @@ function Cell(pos, r, c) {
 
   }
 
-  this.r = r || 100;
+  this.r = r || 150;
   this.c = c || color(10, random(100, 255), random(100, 255), 100);
 
   this.clicked = function(x, y) {
