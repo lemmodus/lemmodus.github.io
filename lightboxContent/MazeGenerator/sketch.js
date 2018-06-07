@@ -9,7 +9,7 @@ let currentCell;
 
 function setup() {
   let canvas = createCanvas(width, height);
-  canv.parent('sketch-holder');
+  canvas.parent('sketch-holder');
   cols = floor(width / w);
   rows = floor(height / w);
 
